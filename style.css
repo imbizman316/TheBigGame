@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/retro-new-version');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: black;
+}
+
+
+.screen, .dialogue, .userinput, .texts, .main {
+    width: 800px;
+}
+
+.main {
+    border: green dotted 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.screen {
+    height: 500px;
+    border: green dotted 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screentext {
+    color: green;
+    font-family: 'Retro New Version', sans-serif;
+    font-size: 19px;
+}
+
+.texts {
+    border: green dotted 2px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dialogue {
+    border: green dotted 2px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.userinput {
+    border: green dotted 2px;
+    height: 100px;
+}
+
+p {
+    padding: 0px 15px;
+}
